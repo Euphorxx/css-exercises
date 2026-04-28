@@ -10,7 +10,52 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  display:flex;
+  justify-content: center;
+  padding-bottom:32px;
 }
+
+.barberry {
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  width:200px;
+}
+
+.chilli {
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  width:200px;
+}
+
+.pepper {
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  width:200px;
+}
+
+.saffron {
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  width:200px;
+}
+
+.plants {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+  gap:52px;
+}
+
+.text {
+  display:flex;
+  text-align: center;
+}
+
+/* I am sure there's a better way to do things where I don't have to type so much but nothing really worked, still gotta learn */
 
 /* do not edit this footer */
 .footer {
