@@ -6,7 +6,7 @@ html, body {
 
 * {
   display:flex;
-  border: 2px solid red;
+  flex-direction: column;
 }
 
 
@@ -26,6 +26,7 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding:15px;
 }
 
 .icon {
@@ -76,5 +77,29 @@ button.cancel {
 
 .icon {
   flex-shrink: 0;
-  margin:10px;
+}
+
+.header {
+  font-size: larger;
+  font-weight: 800;
+  margin-left: -100px;
+  align-self:top;
+}
+
+.top {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.text {
+  margin-top:-10px;
+  padding-bottom:10px;
+  padding-left:55px;
+}
+
+.bottom {
+  flex-direction: row;
+  margin-left:55px;
+  margin-top:2px;
+  gap:5px;
 }
